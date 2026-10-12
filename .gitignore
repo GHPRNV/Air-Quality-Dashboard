@@ -8,8 +8,9 @@ build/
 vite.config.*.timestamp-*
 *.tsbuildinfo
 *-debug.log*
-logs/
 *.log
+!unstructured_iot_sensor_stream.log
+!unstructured_citizen_incidents.log
 __pycache__/
 *.pyc
 .claude-replay.*

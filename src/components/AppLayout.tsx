@@ -10,6 +10,7 @@ import {
   RadioTower,
   Search,
   ShieldCheck,
+  Terminal,
   X,
 } from "lucide-react";
 import { Badge, Button } from "./ui";
@@ -18,6 +19,7 @@ const navigation = [
   { to: "/dashboard", label: "Overview", icon: Gauge },
   { to: "/analytics", label: "Analytics", icon: BarChart3 },
   { to: "/stations", label: "Stations", icon: RadioTower },
+  { to: "/unstructured-stream", label: "Unstructured Stream", icon: Terminal },
   { to: "/data-management", label: "Data management", icon: Database },
   { to: "/methodology", label: "Methodology", icon: ShieldCheck },
 ];

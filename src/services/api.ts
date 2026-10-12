@@ -109,6 +109,60 @@ export async function fetchAnalytics(city = "All cities", metric = "pm25"): Prom
   return res.json();
 }
 
+export type UnstructuredBulletin = {
+  bulletin_id: string;
+  source: string;
+  date: string;
+  region: string;
+  alert_level: string;
+  summary: string;
+  full_text: string;
+  tags: string[];
+};
+
+export type UnstructuredIncident = {
+  incident_id: string;
+  timestamp: string;
+  location: string;
+  reported_by: string;
+  severity: string;
+  category: string;
+  status: string;
+  narrative: string;
+};
+
+export type UnstructuredResponse = {
+  metrics: {
+    dataset_type?: string;
+    total_log_entries?: string;
+    raw_text_volume_bytes?: string;
+    raw_text_volume_mb?: string;
+    data_variety_modalities?: string;
+    ingestion_velocity_ops_sec?: string;
+    active_iot_nodes?: string;
+    storage_engine?: string;
+    unstructured_stream_key?: string;
+    bulletins_key?: string;
+    incidents_key?: string;
+    ingested_at?: string;
+  };
+  filter: string;
+  totalLogsInKey: number;
+  returnedLogsCount: number;
+  logs: string[];
+  bulletins: UnstructuredBulletin[];
+  incidents: UnstructuredIncident[];
+};
+
+export async function fetchUnstructured(filter = "all", search = "", limit = 100): Promise<UnstructuredResponse> {
+  const params = new URLSearchParams({ filter, search, limit: String(limit) });
+  const res = await fetch(`${API_BASE_URL}/api/unstructured?${params.toString()}`);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch unstructured stream: ${res.statusText}`);
+  }
+  return res.json();
+}
+
 export type ImportPayload = {
   filename: string;
   mapping: Record<string, string>;
@@ -133,3 +187,4 @@ export async function confirmImport(payload: ImportPayload): Promise<ImportResul
     importedAt: new Date().toISOString(),
   };
 }
+

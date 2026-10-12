@@ -1,0 +1,87 @@
+[
+  {
+    "bulletin_id": "CPCB-2024-DEL-GRAP-IV",
+    "source": "Central Pollution Control Board (CPCB) & CAQM",
+    "date": "2024-11-04",
+    "region": "Delhi-NCR (National Capital Region)",
+    "alert_level": "EMERGENCY (GRAP Stage-IV)",
+    "summary": "Invocation of Stage-IV of Graded Response Action Plan (GRAP) due to Severe+ Air Quality",
+    "full_text": "In view of the prevailing meteorological conditions, characterized by low wind speeds (under 4 km/h), shallow boundary layer (mixing depth below 200 meters), and significant stubble burning smoke plume advection from north-western agrarian belts, the Sub-Committee on GRAP hereby invokes all actions envisaged under Stage-IV ('Severe+' Air Quality, AQI > 450) with immediate effect across the entire National Capital Region. \nKey Directives:\n1. Ban on entry of non-BS-VI diesel light commercial vehicles (LCVs) into Delhi.\n2. Complete prohibition on diesel medium and heavy goods vehicles (MGVs/HGVs) except those carrying essential commodities.\n3. Complete cessation of construction and demolition activities for public projects including highways, flyovers, and power transmission lines.\n4. NCR State Governments and GNCTD are strongly advised to switch all primary, middle, and secondary schools to virtual online classes.\n5. Public Health Warning: Vulnerable citizens, especially children, the elderly, and individuals with cardiovascular, respiratory, or pulmonary ailments, are strongly advised to stay indoors and avoid any outdoor physical exertion. N95/FFP2 respirators are mandatory for essential outdoor exposure.",
+    "tags": [
+      "GRAP-IV",
+      "Emergency",
+      "Delhi",
+      "Stubble Burning",
+      "Health Advisory",
+      "Severe+"
+    ]
+  },
+  {
+    "bulletin_id": "IMD-2024-AIR-MET-11",
+    "source": "India Meteorological Department (IMD) - Atmospheric Dispersion Division",
+    "date": "2024-12-18",
+    "region": "Indo-Gangetic Plain (Punjab, Haryana, Delhi, Uttar Pradesh, Bihar)",
+    "alert_level": "METEOROLOGICAL INVERSION WATCH",
+    "summary": "Dense Fog, Radiation Inversion, and Stagnant Ventilation Index across Northern Plains",
+    "full_text": "Special Atmospheric Dispersion and Air Quality Bulletin:\nSynoptic observation confirms the development of an extensive anticyclonic circulation over north-western India, resulting in a persistent ground-based temperature inversion between 00:00 and 10:00 IST. Mixing heights are anticipated to remain restricted between 120m and 350m during morning hours, severely limiting vertical dispersion of surface pollutants. The ventilation index is projected to plummet below 1,500 m2/s (a threshold indicative of extreme pollution accumulation). Surface calm conditions (wind speed < 3 knots) will exacerbate the trapping of vehicular exhaust, industrial emissions, and domestic solid fuel combustion particles. Dense fog layers will trigger secondary inorganic aerosol formation through aqueous-phase oxidation of SO2 into sulfate and NO2 into particulate nitrate.",
+    "tags": [
+      "IMD",
+      "Meteorology",
+      "Inversion",
+      "Ventilation Index",
+      "Dense Fog",
+      "Secondary Aerosols"
+    ]
+  },
+  {
+    "bulletin_id": "MPCB-2024-BOM-COASTAL-02",
+    "source": "Maharashtra Pollution Control Board (MPCB)",
+    "date": "2024-03-22",
+    "region": "Mumbai Metropolitan Region (MMR)",
+    "alert_level": "MODERATE TO POOR WARNING",
+    "summary": "Dust Dispersion from Infrastructure Megaprojects and Sea-Breeze Reversal",
+    "full_text": "Environmental Compliance and Ambient Air Monitoring Bulletin:\nContinuous Ambient Air Quality Monitoring Stations (CAAQMS) at Bandra-Kurla Complex (BKC), Worli, and Colaba have registered sustained PM10 excursions exceeding 180 ug/m3. The primary emission driver is identified as unmitigated fugitive road dust and excavation debris from ongoing metro rail tunneling and coastal road construction corridors. The diurnal sea-breeze onset has experienced delay, trapping coastal particulate matter over the peninsula during peak evening traffic hours. \nMandatory Compliance Measures:\n- Continuous water mist cannons and mechanical sweeping must be deployed on all major arterial transit corridors.\n- 35-foot perimeter acoustic and dust barriers must be maintained around all urban construction plots.\n- Ready-mix concrete (RMC) batching plants must operate enclosed bag-filter systems under pain of immediate power disconnection.",
+    "tags": [
+      "Mumbai",
+      "MPCB",
+      "PM10",
+      "Fugitive Dust",
+      "Construction",
+      "Coastal Air"
+    ]
+  },
+  {
+    "bulletin_id": "KSPCB-2024-BLR-TRAFFIC-08",
+    "source": "Karnataka State Pollution Control Board (KSPCB)",
+    "date": "2024-06-14",
+    "region": "Bengaluru Urban (Silk Board, Peenya, Whitefield)",
+    "alert_level": "SATISFACTORY TO MODERATE POST-MONSOON NOTICE",
+    "summary": "Pre-Monsoon Shower Cleansing Effect Followed by Traffic Corridor Resuspension",
+    "full_text": "Urban Air Quality Telemetry Bulletin:\nPre-monsoon convective thunderstorms over Bengaluru have yielded a substantial scavenging effect, with city-wide 24-hour mean PM2.5 dropping to 28.4 ug/m3 ('Good' CPCB category). However, heavy vehicular idling at congested traffic bottlenecks (notably Central Silk Board, Tin Factory, and Outer Ring Road Whitefield) continues to generate elevated localized NO2 concentrations reaching 68.2 ppb during 17:00-21:00 peak hours. Citizen exposure in open transit vehicles remains elevated. KSPCB urges transit authorities to optimize signal synchronizations and encourages public transit adoption to curtail nitrogen oxide surges.",
+    "tags": [
+      "Bengaluru",
+      "KSPCB",
+      "Monsoon Washout",
+      "NO2",
+      "Traffic Congestion",
+      "Silk Board"
+    ]
+  },
+  {
+    "bulletin_id": "WHO-2024-GLOBAL-AIR-ADVISORY",
+    "source": "World Health Organization (WHO) Regional Office for South-East Asia",
+    "date": "2024-09-10",
+    "region": "South-East Asia Urban Centers",
+    "alert_level": "GLOBAL PUBLIC HEALTH ADVISORY",
+    "summary": "Health Risks of Fine Particulate Matter (PM2.5) Long-Term Exposure",
+    "full_text": "Public Health Scientific Advisory:\nIn accordance with the 2021 WHO Global Air Quality Guidelines (AQGs), particulate matter smaller than 2.5 microns (PM2.5) represents the single most critical environmental risk factor for premature mortality, ischemic heart disease, stroke, chronic obstructive pulmonary disease (COPD), and lower respiratory infections. The guideline recommends an annual mean limit of 5 ug/m3 and 24-hour limit of 15 ug/m3. Member state urban municipalities are strongly advised to accelerate continuous real-time telemetry deployment, transition to clean public transit fleets, enforce stringent industrial emission ceilings, and implement community air quality alert dashboards to minimize preventable environmental morbidity.",
+    "tags": [
+      "WHO",
+      "Public Health",
+      "PM2.5",
+      "Epidemiology",
+      "Global Standards",
+      "Respiratory Health"
+    ]
+  }
+]

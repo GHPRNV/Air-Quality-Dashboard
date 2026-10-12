@@ -3,6 +3,7 @@ import AppLayout from "../components/AppLayout";
 import Dashboard from "../pages/Dashboard";
 import Analytics from "../pages/Analytics";
 import Stations from "../pages/Stations";
+import UnstructuredData from "../pages/UnstructuredData";
 import DataManagement from "../pages/DataManagement";
 import Methodology from "../pages/Methodology";
 
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
       { path: "dashboard", Component: Dashboard },
       { path: "analytics", Component: Analytics },
       { path: "stations", Component: Stations },
+      { path: "unstructured-stream", Component: UnstructuredData },
       { path: "data-management", Component: DataManagement },
       { path: "methodology", Component: Methodology },
       { path: "*", element: <Navigate to="/dashboard" replace /> },
